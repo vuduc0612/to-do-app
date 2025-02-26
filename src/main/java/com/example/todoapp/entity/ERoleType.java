@@ -1,5 +1,5 @@
 package com.example.todoapp.entity;
 
 public enum ERoleType {
-    ADMIN, MANAGER, USER
+    ROLE_ADMIN, ROLE_MANAGER, ROLE_USER
 }

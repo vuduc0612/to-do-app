@@ -26,7 +26,8 @@ public class Todo {
     @Column(nullable = false)
     private String description;
 
-    @Column
+    @Column(nullable = false)
+    @Enumerated(EnumType.STRING)
     private ETaskStatus status = ETaskStatus.PENDING;
 
     @Column
